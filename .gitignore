@@ -1,0 +1,68 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Pytest
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Logs
+logs/
+*.log
+
+# Environment files
+.env
+.env.*
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MacOS
+.DS_Store
+
+# Misc caches
+.cache/
+pip-wheel-metadata/
+
+# Model checkpoints, data, and large artifacts
+models/
+checkpoints/
+weights/
+data/
+outputs/
+
+# Hugging Face / torch cache (optional)
+transformers_cache/
+hf_cache/
+.cache/huggingface/
+
+# OneDrive / Windows temp
+Thumbs.db
+desktop.ini
+
